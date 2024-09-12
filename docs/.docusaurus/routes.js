@@ -3,8 +3,8 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/',
-    component: ComponentCreator('/', '2bc'),
+    path: '/docs/build/',
+    component: ComponentCreator('/docs/build/', 'e1d'),
     exact: true
   },
   {

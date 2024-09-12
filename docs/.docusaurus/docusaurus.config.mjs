@@ -6,7 +6,7 @@
 export default {
   "title": "RAGGENIE DOCS",
   "url": "https://arjunpa2001.github.io",
-  "baseUrl": "/",
+  "baseUrl": "/docs/build/",
   "organizationName": "ArjunPA2001",
   "projectName": "Readme-Test",
   "onBrokenLinks": "throw",
