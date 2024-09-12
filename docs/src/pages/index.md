@@ -1,7 +1,6 @@
 ---
-title: Markdown page example
+title: RAGGENIE docs
 ---
-
 # RAGGENIE docs
 
 ##Prerequesites
@@ -20,10 +19,10 @@ title: Markdown page example
 
 ### LLM Inferences
 We currently support these LLM Inference endpoints.
-* [OpenAI](https://openai.com/index/openai-api/)
-* [Gemini](https://ai.google.dev/gemini-api)
-* [Claude](https://www.anthropic.com/api)
-* [Together.ai](https://www.together.ai/)
+* OpenAI
+* TogetherAI
+* Gemini
+* Claude
 To add an LLM endpoint choose your 
 
 ##Configuring capablities
