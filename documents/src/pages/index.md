@@ -1,7 +1,3 @@
----
-title: RAGGENIE docs
----
-
 # RAGGENIE docs
 
 ## Prerequesites
@@ -24,6 +20,7 @@ We currently support these LLM Inference endpoints.
 * [Gemini](https://ai.google.dev/gemini-api)
 * [Claude](https://www.anthropic.com/api)
 * [Together.ai](https://www.together.ai/)
+  
 To add an LLM endpoint choose your 
 
 ## Configuring capablities
