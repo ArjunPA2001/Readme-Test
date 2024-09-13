@@ -39,12 +39,17 @@ jobs:
         with:
           node-version: 16.x
 
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: documents
+
       - name: Install docusaurus
         run: npm install
-        working-directory: website
+        working-directory: documents
       - name: Build documents
         run: npm run build
-        working-directory: website
+        working-directory: documents
         
       # Upload the build directory to GitHub Pages
       - name: Upload artifact
