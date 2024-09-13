@@ -50,9 +50,8 @@ jobs:
       - name: Build documents
         run: npm run build
         working-directory: documents
-        
-      # Upload the build directory to GitHub Pages
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: documents/build  # Specify the build folder
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        with: documents/build
