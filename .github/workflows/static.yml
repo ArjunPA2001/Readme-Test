@@ -22,8 +22,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Single deploy job since we're just deploying
-  deploy:
+  buid_and_deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -31,6 +30,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          sparse-checkout: 'documents'
+          sparse-checkout-cone-mode: false
       - name: Setup Pages
         uses: actions/configure-pages@v5
       # Set up Node.js and install dependencies with npm
@@ -39,11 +41,6 @@ jobs:
         with:
           node-version: 18.0.x
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: documents
-
       - name: Install docusaurus
         run: npm install
         working-directory: documents
@@ -51,8 +48,12 @@ jobs:
         run: npm run build
         working-directory: documents
 
+      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: documents/build
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          path: documents/build
