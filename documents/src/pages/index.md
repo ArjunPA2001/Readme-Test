@@ -31,7 +31,7 @@ We currently support these LLM Inference endpoints.
 * [Together.ai](https://www.together.ai/)
   
 To add an LLM endpoint choose your 
-![](././static/img/static\img\inferance end point.png)
+![kauwdh](././static/img/inferance end point.png)
 
 ## Configuring capablities
 Capabilities can be defined to make your chatbot do custom actions such as fill a form or book a meeting. Currently actions can be defined to interact with your datasources.
