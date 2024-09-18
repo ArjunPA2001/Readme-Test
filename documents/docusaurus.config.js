@@ -45,8 +45,7 @@ const config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog:
-        {
+        blog: {
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
@@ -74,17 +73,17 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'RAGGENIE',
         logo: {
-          alt: 'raggenie Logo',
+          alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Documents',
+            label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -101,7 +100,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Documents',
+                label: 'Tutorial',
                 to: '/docs/intro',
               },
             ],
@@ -137,7 +136,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} RAGGENIE DOCS. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
