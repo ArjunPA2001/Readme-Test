@@ -3,7 +3,38 @@
 ## Prerequesites
 
 ## How to setup and run
-### Installing Requirements
+
+### Run Locally
+
+Clone the project
+
+```bash
+git clone https://github.com/sirocco-ventures/raggenie
+```
+
+### Installing backend Requirements
+
+```bash
+
+```
+
+### Go to the project directory
+
+```bash
+cd raggenie/ui
+```
+
+### Install dependencies
+
+```bash
+  npm install
+```
+
+### Start the server
+
+```bash
+  npm run dev
+```
 
 ### Using RAGGENIE backend API
 To run just the backend API you can run
@@ -28,7 +59,6 @@ Currently these are the datasource plugins that are available in raggenie.
 #### Unstrunctured Datasources
 * PDFs
 * Websites
-![]
 
 
 ### LLM Inferences
