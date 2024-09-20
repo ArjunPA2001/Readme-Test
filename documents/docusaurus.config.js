@@ -45,7 +45,8 @@ const config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
+        blog:
+        {
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
@@ -75,15 +76,15 @@ const config = {
       navbar: {
         title: 'RAGGENIE',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'raggenie Logo',
           src: 'img/logo.svg',
         },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'documentationSidebar',
+            sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Documentation',
+            label: 'Documents',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
