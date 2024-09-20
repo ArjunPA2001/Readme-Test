@@ -77,7 +77,7 @@ const config = {
         title: 'RAGGENIE',
         logo: {
           alt: 'raggenie Logo',
-          src: 'img/logo.svg',
+          src: 'https://cdn.prod.website-files.com/664e485574efd184749b7301/6658314c55210573e334ac1b_Group%2042.png',
         },
         items: [
           {
