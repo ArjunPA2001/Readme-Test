@@ -9,7 +9,7 @@ Plugin configuration is used to specify the metadata of different datasources su
 You need to specify informations such as:
 * Plugin Name: Plugin name is used to differentiate between different connected plugins.
 * Database Description: Description is should contain a breafe description about the use case of the database. The description is used during LLM calls, thus more detailed descriptions may help to improve the relevance of LLM output. The decription should be between 100 and 200 characters to make sure that it is detailed enough while also keeping the token count low.
-* Database login details: These are specific for different plugins. Refer [Plugins](/docs/tutorial-basics/markdown-features) for more details
+* Database login details: These are specific for different plugins. Refer [Plugins](../Connectors) for more details
 after entering all the details use `connection test` button perform a health check. If the health check passes use `save & continue` to save the plugin.
 
 ## Database schema
