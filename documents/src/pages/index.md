@@ -55,7 +55,8 @@ docker compose up
 ### Configuration
 #### Configuration details
 You should provide a bot name, a short discription about the bot and a long discription about the bots usecase.
-Note:- Long dicription will be used when making LLM calls and thus will affect the performance of the chatbot. It is recomended to give detailed description that can help the LLM to understand its usecases.
+
+Note:- Long decription will be used when making LLM calls and thus will affect the performance of the chatbot. It is recomended to give detailed description that can help the LLM to understand its usecases.
 
 #### Inference endpoint
 To add an LLM endpoint choose your LLM inference provider and specify a unique name to reference the particular model.
