@@ -2,7 +2,7 @@
 
 ## Prerequesites
 
-## How to run
+## How to run raggenie
 
 ### To run raggenie backend Server
 
@@ -21,7 +21,7 @@ pip install -r requirements.txt
 python main.py --config ./config/config.yaml llm
 ```
 
-### To run raggenie frontend ui
+### To run raggenie ui server
 
 
 #### Go to the project ui directory
