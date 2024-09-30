@@ -1,3 +1,12 @@
+<p align="center">
+  <a href="https://www.raggenie.com/">
+    <img src="https://cdn.prod.website-files.com/664e485574efd184749b7301/6658314c55210573e334ac1b_Group%2042.png" width="150" alt="RAGGENIE Logo"></img>
+  </a>
+</p>
+
+<h1 align="center">
+RAGGENIE
+</h1>
 
 ## Quick start
 
