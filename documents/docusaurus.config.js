@@ -98,10 +98,10 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Documents',
             items: [
               {
-                label: 'Documentation',
+                label: 'Docs',
                 to: '/docs/Prerequesites',
               },
             ],

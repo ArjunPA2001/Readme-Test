@@ -45,3 +45,7 @@ To install ui dependancies
   ```bash
   npm install
   ```
+
+## Docker
+
+Raggenie provides docker compose file and docker files which can be used to run raggenie on containers. If you prefer to run raggenie on docker you can find how to install docker [here](https://docs.docker.com/get-started/). And to run raggenie using docker you can find instructions [here](./How%20to%20run%20raggenie/Using%20Docker.md)
