@@ -11,4 +11,4 @@ The name of the plugin is used to differentiare between different connected plug
 A brief description of data in the plugin. This is used during LLM calls and may affect the quality of LLM response thus make sure that it is descriptive enough for good LLM output while being short enough to reduce LLM cost.
 
 ### Website URL
-URL of the website to fetch the documents from.
+The Website URL is the address of the website from which the plugin will fetch documents and data. The plugin will query this URL to retrieve the required content for use during LLM interactions.
