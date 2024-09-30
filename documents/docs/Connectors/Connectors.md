@@ -9,10 +9,10 @@ Different components in your LLM app can be inserted using plugins.
 Currently these are the datasource plugins that are available in raggenie.
 
 ### Structred Datasources
-* Postgressql
-* Airtable
-* Bigquery
+* [Postgressql](./Postgressql)
+* [Airtable](./Airtable)
+* [Bigquery](./Bigquery)
 
 ### Unstrunctured Datasources
-* PDFs
-* Websites
+* [PDFs](./PDFs)
+* [Websites](./Websites)
