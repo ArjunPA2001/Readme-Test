@@ -1,6 +1,6 @@
-<!-- ---
-sidebar_position: 5
---- -->
+---
+sidebar_position: 4
+---
 
 # Connectors/pluggins
 Different components in your LLM app can be inserted using plugins.
