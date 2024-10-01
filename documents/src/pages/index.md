@@ -60,8 +60,7 @@ git clone https://github.com/sirocco-ventures/raggenie
       embeddings:
         provider: "chroma_default"
   ```
-
-This configuration ensures that the RAGGENIE system connects to the `chroma` vector database and uses the default embeddings provided by Chroma.
+  This configuration ensures that the RAGGENIE system connects to the `chroma` vector database and uses the default embeddings provided by Chroma.
 
 ### Raggenie Frontend
 
@@ -101,12 +100,12 @@ Different components in your LLM app can be inserted using plugins.
 ### Data Sources
 Currently these are the datasource plugins that are available in raggenie.
 #### Structred Datasources
-* Postgressql
-* Airtable
-* Bigquery
+* [Postgressql](./docs/Connectors/Postgressql)
+* [Airtable](./docs/Connectors/Postgressql)
+* [Bigquery](./docs/Connectors/Postgressql)
 #### Unstrunctured Datasources
-* PDFs
-* Websites
+* [PDFs](./docs/Connectors/Postgressql)
+* [Websites](./docs/Connectors/Postgressql)
 
 
 ## LLM Inferences
